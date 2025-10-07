@@ -442,21 +442,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4704adf934ddd4db0a2e8a48cec0266d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: f9e2851d05ea4c34bb7c3f8a25a756ec, type: 3}
   musicVolume: 1
-  ambience: {fileID: 0}
+  ambience: {fileID: 8300000, guid: 241b1c15dc2b0e341ad2fa7f00ba3f40, type: 3}
   ambienceVolume: 1
-  playerMove: {fileID: 0}
-  playerMoveVolume: 1
-  fireProjectile: {fileID: 0}
-  fireProjectileVolume: 1
-  projectileImpact: {fileID: 0}
-  projectileImpactVolume: 1
-  crateDestroyed: {fileID: 0}
-  crateDestroyedVolume: 1
-  enterTrap: {fileID: 0}
+  playerMove: {fileID: 8300000, guid: d706e0c8abb238647b9844ccedc8fc99, type: 3}
+  playerMoveVolume: 0.5
+  fireProjectile: {fileID: 8300000, guid: 80be2d712f14fe24784f64ccd42cc3c1, type: 3}
+  fireProjectileVolume: 0.75
+  projectileImpact: {fileID: 8300000, guid: a43905f425336ad4a92c74b67ef48ad5, type: 3}
+  projectileImpactVolume: 0.5
+  crateDestroyed: {fileID: 8300000, guid: a24b4403f769a6f4899a5c53dc293948, type: 3}
+  crateDestroyedVolume: 0.5
+  enterTrap: {fileID: 8300000, guid: 6ede861d51f128446b5b30fbe47ffc2f, type: 3}
   enterTrapVolume: 1
-  goalReached: {fileID: 0}
+  goalReached: {fileID: 8300000, guid: 3ca8135003ebb4147a11e0796b0c1878, type: 3}
   goalReachedVolume: 1
 --- !u!114 &325063152
 MonoBehaviour:
@@ -470,35 +470,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a8fb8ccb1a084c59a86ad73efd8ee89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: -6413224569456803533, guid: 55d55ad75018a404caf5f95046e4ce2e, type: 3}
   playerVisuals:
-    animController: {fileID: 0}
-    defaultSprite: {fileID: 0}
+    animController: {fileID: 9100000, guid: c2cb8d7138999b84f8a4cf7965d5e463, type: 2}
+    defaultSprite: {fileID: -6383376124169690535, guid: 616717094fa25a241b9f1ed7c76699a0, type: 3}
     color: {r: 0.14117643, g: 0.29628542, b: 1, a: 1}
-    allowPlayerRotation: 1
+    allowPlayerRotation: 0
   projectileVisuals:
-    animController: {fileID: 0}
-    sprite: {fileID: 0}
+    animController: {fileID: 9100000, guid: e9ab1c2695403234b8aa6a8f0128e793, type: 2}
+    sprite: {fileID: 6035477124656669715, guid: 1f0361e27f103124790402dee083fa0d, type: 3}
     color: {r: 1, g: 0.8624264, b: 0, a: 1}
   tileVisuals:
     animController: {fileID: 0}
-    sprite: {fileID: 0}
+    sprite: {fileID: 3330030804583911422, guid: f106838a02d2b894d8343c59bc4130b1, type: 3}
     color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
   crateVisuals:
     animController: {fileID: 0}
-    sprite: {fileID: 0}
+    sprite: {fileID: -2990900167212558872, guid: 58ba935b86a69994e97706d92a7f2245, type: 3}
     color: {r: 1, g: 0.540573, b: 0.23137254, a: 1}
   trapVisuals:
-    animController: {fileID: 0}
-    sprite: {fileID: 0}
+    animController: {fileID: 9100000, guid: 3f5718c340701f5429dac74be894fbe0, type: 2}
+    sprite: {fileID: 7025651857757288288, guid: 94c2f787ea478cd48adc533908d55c01, type: 3}
     color: {r: 1, g: 0, b: 0.36335707, a: 1}
   blockVisuals:
-    animController: {fileID: 0}
-    sprite: {fileID: 0}
+    animController: {fileID: 9100000, guid: 20c9415702f7632489dcfc8eade8d2d5, type: 2}
+    sprite: {fileID: -8737107885946949008, guid: 2e59ea92b16e80f49aa2554379894297, type: 3}
     color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
   goalVisuals:
-    animController: {fileID: 0}
-    sprite: {fileID: 0}
+    animController: {fileID: 9100000, guid: b3ed6a0f4deadba47b385e123f59d104, type: 2}
+    sprite: {fileID: -325620910044817651, guid: 3b699aa4a6844204b88470ee4624e40d, type: 3}
     color: {r: 0, g: 1, b: 0.7911868, a: 1}
 --- !u!114 &325063153
 MonoBehaviour:
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca2f95a7db4e4b3ca9d3dedbde6e80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMoveSpeed: 3
+  playerMoveSpeed: 1.5
   projectileSpeed: 7
   blockCount: 5
   trapTileCount: 8
@@ -962,7 +962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 781.7, y: -447}
+  m_AnchoredPosition: {x: 781.7, y: -351}
   m_SizeDelta: {x: 265.43, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968224130
@@ -1583,7 +1583,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.6445312, y: 2.4882812}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1947,7 +1947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 101.26}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832406440
